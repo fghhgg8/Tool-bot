@@ -4,5 +4,5 @@ services:
     env: python
     plan: free
     buildCommand: ""
-    startCommand: bash start.sh
+    startCommand: python main.py
     autoDeploy: true
